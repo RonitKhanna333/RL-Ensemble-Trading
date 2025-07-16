@@ -63,11 +63,14 @@ Some commonly used packages (installed automatically or via requirements):
    Run `2_Train.ipynb` to:
    - Train DRL agents on the NIFTY50 data.
    - Perform ensemble weighting (MVO, LSTM, Transformer).
-   - Backtest and analyze strategy performance.
 
-3. **Dynamic Weighting & Evaluation:**  
+3. **Backtesting & Analysis:**  
+   Execute `3_Backtest.ipynb` to:
+   - Backtest and analyze strategy performance.
+   - Visualize and compare ensemble vs. individual agent and NIFTY benchmarks.
+
+4. **Dynamic Weighting & Evaluation:**  
    - Analyze weight evolution and metrics.
-   - Compare ensemble vs individual agent and NIFTY benchmarks.
 
 ### Customization
 
